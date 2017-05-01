@@ -1,0 +1,65 @@
+div
+{
+	height: 200px;
+	width: 200px;
+	background-color: gray;
+	margin-top: 30px;
+}
+
+#uno
+{
+	transform: rotate(45deg);
+}
+
+#dos
+{
+	border-radius: 10px 30px 4px 50px;
+}
+
+#tres
+{
+	box-shadow: #000 20px 20px 5px;
+}
+
+#tres p
+{
+	background-color: hsl(300, 70%, 70%);
+}
+
+#cuatro
+{
+	transform: translateX(50px) translateY(60px);
+}
+
+section
+{
+	margin-top: 80px;
+}
+section ul li:nth-child(3)
+{
+	font-size: 1.5em;
+	color: blue;
+}
+li:nth-of-type(2)
+{
+	color: red;
+}
+
+section p:first-line
+{
+	font-size: 50px;
+}
+section p:first-letter
+{
+	color: red;
+}
+div:empty
+{
+	background-color: brown;
+}
+
+h1:before
+{
+	content: "-";
+	color: #777;
+}

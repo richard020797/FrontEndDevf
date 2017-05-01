@@ -1,0 +1,7 @@
+{
+  "name": "miProyecto",
+  "short_name": "miProyecto",
+  "description": "intro to polymer",
+  "start_url": "/",
+  "display": "standalone"
+}

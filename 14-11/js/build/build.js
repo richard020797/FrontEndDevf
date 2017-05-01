@@ -1,0 +1,1 @@
+var suma=function(n,r){return n+r},resta=function(n,r){return n-r};
